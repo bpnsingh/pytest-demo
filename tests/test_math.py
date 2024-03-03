@@ -1,7 +1,9 @@
 
 def test_plus():
-    # Define a function named 'test_plus'
-
     assert 1+1 == 2
-    # Use the assert statement to verify that the sum of 1 and 1 is equal to 2
 
+def test_one_plus_two():
+    a= 1
+    b =2
+    c = 3
+    assert a+b == c
